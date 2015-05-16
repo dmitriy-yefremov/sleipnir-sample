@@ -1,2 +1,2 @@
 # sleipnir-sample
-Demo project for Sleipnier
+Demo project for Sleipnir
