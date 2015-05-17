@@ -1,0 +1,18 @@
+{
+  "type" : "record",
+  "name" : "Item",
+  "namespace" : "net.yefremov.sleipnirsample",
+  "doc" : "An item",
+  "fields" : [
+    {
+      "name": "id",
+      "type": "long",
+      "doc": "The unique id of the item"
+    },
+    {
+      "name" : "name",
+      "type" : "string",
+      "doc": "The name of the item"
+    }
+  ]
+}

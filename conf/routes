@@ -4,3 +4,9 @@
 
 # Home page
 GET     /                           net.yefremov.sleipnirsample.Application.index
+
+# Get a reservation
+GET     /items/:id                  net.yefremov.sleipnirsample.ItemsController.get(id: Long)
+
+# Create a reservation
+# POST    /items                      net.yefremov.sleipnirsample.ItemsController.create()
