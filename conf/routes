@@ -5,8 +5,8 @@
 # Home page
 GET     /                           net.yefremov.sleipnirsample.Application.index
 
-# Get a reservation
+# Get an item
 GET     /items/:id                  net.yefremov.sleipnirsample.ItemsController.get(id: Long)
 
-# Create a reservation
-# POST    /items                      net.yefremov.sleipnirsample.ItemsController.create()
+# Create an item
+POST    /items                      net.yefremov.sleipnirsample.ItemsController.create()
