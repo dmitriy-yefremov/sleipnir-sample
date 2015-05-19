@@ -3,10 +3,13 @@
 # ~~~~
 
 # Home page
-GET     /                           net.yefremov.sleipnirsample.Application.index
+GET     /                           net.yefremov.sleipnirsample.IndexController.index
 
 # Get an item
 GET     /items/:id                  net.yefremov.sleipnirsample.ItemsController.get(id: Long)
 
 # Create an item
 POST    /items                      net.yefremov.sleipnirsample.ItemsController.create()
+
+# Get all items
+GET     /items                      net.yefremov.sleipnirsample.ItemsController.getAll()

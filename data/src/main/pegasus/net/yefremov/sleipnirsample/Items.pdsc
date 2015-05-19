@@ -1,0 +1,24 @@
+{
+  "type" : "record",
+  "name" : "Items",
+  "namespace" : "net.yefremov.sleipnirsample",
+  "doc" : "A collection of items",
+  "fields" : [
+    {
+      "name": "items",
+      "type": {
+        "type": "array",
+        "items": "Item",
+        "doc": "A single item"
+      },
+      "default": [],
+      "doc": "The sequence of items"
+    },
+    {
+      "name": "total",
+      "type": "long",
+      "default": 0,
+      "doc": "The number of items in the collection"
+    }
+  ]
+}
